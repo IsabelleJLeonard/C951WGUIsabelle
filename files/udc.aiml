@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>Hello</pattern>
+    <template>Hello. My name is Bob. I am a WGU Computer Science Carrer guidance.  I am here to help you to find the best match job. Type Start, we will begin. </template>
+  </category>
+
+<category>
+    <pattern>Start</pattern>
+    <template>Which do you enjoy the most, please type Hardware or Software.
+<ul>
+    <li>Hardware</li>
+    <li>Software</li>
+    </ul></template>
+    
+</category>
+
+<category>
+    <pattern>hardware</pattern>
+    <template>Your best match job is Computer Hardware Engineer. I have shared a link for you to learn more about the job, you may click on the button.
+        You can type bye to exit, or Hello to start over.
+        <button>
+            <text> Computer Hardware Engineer </text>
+             <url>https://www.computerscience.org/careers/computer-hardware-engineer/</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <template>Thank you for chatting. Come back if you need any more guidance, just type Hello!</template>
+    <pattern>bye</pattern>
+</category>
+
+<category>
+    <pattern>Software</pattern>
+    <template>Which do you enjoy more, please pick a number 1 to 4.
+<ol>
+    <li>Programming</li>
+    <li>Designing</li>
+    <li>Analyzing</li>
+    <li>Database</li>
+</ol></template>
+</category>
+
+<category>
+    <pattern>1</pattern>
+    <template>
+        Your best match job is Software Engineer.I have shared a link for you to learn more about the job, you may click on the button.
+        You can type bye to exit, or Hello to start over.
+        <button>
+            <text> Software Engineer </text>
+             <url>https://www.computerscience.org/careers/software-engineer/</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>2</pattern>
+    <template>
+        Your best match job is Web Developer. I have shared a link for you to learn more about the job, you may click on the button.
+        You can type bye to exit, or Hello to start over.
+        <button>
+            <text> Web Developer </text>
+             <url>https://www.computerscience.org/careers/web-developer/</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>3</pattern>
+    <template>
+        Your best match job is Systems Analyst. I have shared a link for you to learn more about the job, you may click on the button.
+        You can type bye to exit, or Hello to start over.
+        <button>
+            <text> System Anaylst </text>
+             <url>https://www.computerscience.org/careers/systems-analyst/</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>4</pattern>
+    <template>
+        Your best match job is Database Administrator.  I have shared a link for you to learn more about the job, you may click on the button.
+        You can type bye to exit, or Hello to start over.
+        <button>
+            <text> Database administrator </text>
+             <url>https://www.computerscience.org/careers/database-administrator/</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+</aiml>
+
